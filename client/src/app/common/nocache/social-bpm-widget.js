@@ -8,16 +8,6 @@ var SOLR_BASE_URL = "http://solr@@@/solr/";
 var SOLRV5_BASE_URL = "http://solrv@@@/solr/";
 var PROFILES_JUNCTION = "junction_profiles@@@/";
 
-/*
-//Uncomment for local setup
-var WEBASSET_SERVER_URL = "http://localhost/";
-var SSO_BASE_URL = "http://localhost/";
-var INTRANET_REDESIGN_BASE_URL = "http://localhost/";
-var SOLR_BASE_URL = "http://solr.intranet.mckinsey.com/solr/";
-var SOLRV5_BASE_URL = "http://dev-solrv5-lx01.amdc.mckinsey.com:8080/solr/";
-var PROFILES_JUNCTION = "profilesint"
-*/
-
 var BANNER_CONTEXT_ROOT = "banner-widget/";
 var WELCOME_CONTEXT_ROOT = "welcome/";
 var KNOW_CONTEXT_ROOT = "ks/research/";
@@ -54,23 +44,8 @@ document.write('<script type="text/javascript" src="' + SSO_BASE_URL + BANNER_CO
 // var angular = (window.angular = {});
 // window.angular = null;
 
-function loadBannerForNonAngularApps(tabName) {
-	document.write('<div ng-app="bannerWidgetApp">');
-	document.write('	<banner active-tab="' + tabName + '"></banner>');
-	document.write('</div>');
-}
-
-function loadBannerForAngularApps(tabName) {
+function loadBannerForAngularApps(filterType) {
 	document.write('<div>');
-	document.write('	<social-bpm active-tab="' + tabName + '"></social-bpm>');
-	document.write('</div>');
-}
-
-/**
-* getNewHeader: legacy method implementing angular and responsive 
-*/
-function getNewHeader(tabName, fixedWidth) {
-	document.write('<div ng-app="bannerWidgetApp" id="legacy-'+tabName+'" class="fixed-width-banner">');
-	document.write('<span id="fixed-'+fixedWidth+'" class="responsive-intranet"> <banner active-tab="' + tabName + '"></banner></span>');
+	document.write('	<social-bpm filter-type="' + filterType + '"></social-bpm>');
 	document.write('</div>');
 }
