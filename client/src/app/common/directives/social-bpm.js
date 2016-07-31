@@ -1,6 +1,3 @@
-/**
- * Krishan Dadlani
- */
 var socialBpmModule = angular.module('social-bpm-app', []);
 
 socialBpmModule.directive(
