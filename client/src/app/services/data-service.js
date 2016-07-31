@@ -3,7 +3,6 @@
   app.service(
     "socialBpmDataService",
     function ($q, $http) {
-      console.log("Hello 7");
       function getSocialBpmData() {
         var dataUrl = AWS_SERVER_URL + 'data/data.json';
 
@@ -23,7 +22,7 @@
     delete $httpProvider.defaults.headers.common["X-Requested-With"];
   }]);
 
-  app.config(function($sceDelegateProvider) {
+  app.config(function ($sceDelegateProvider) {
     $sceDelegateProvider.resourceUrlWhitelist([
       'self',
       '/client/src/app/views/**']);
