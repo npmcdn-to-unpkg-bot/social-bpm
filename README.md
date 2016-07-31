@@ -5,4 +5,6 @@ data file: http://ec2-52-37-118-158.us-west-2.compute.amazonaws.com/data/data.js
 
 AWS URL: http://ec2-52-37-118-158.us-west-2.compute.amazonaws.com/
 
-path to host files: /var/www/html
+path to host files on AWS server: /var/www/html
+
+Avatar URL: http://www.flaticon.com/free-icons/avatar_273
