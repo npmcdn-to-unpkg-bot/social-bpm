@@ -6,3 +6,5 @@ document.write('<script type="text/javascript" src="client/vendor/angularjs/v1.5
 document.write('<script type="text/javascript" src="client/src/app/social-bpm-main.js?version=' + social_bpm_widget_version + '"></script>');
 document.write('<script type="text/javascript" src="client/src/app/common/directives/social-bpm.js?version=' + social_bpm_widget_version + '"></script>');
 document.write('<script type="text/javascript" src="client/src/app/services/data-service.js?version=' + social_bpm_widget_version + '"></script>');
+
+document.write('<link rel="stylesheet" href="client/src/css/template.css" />');

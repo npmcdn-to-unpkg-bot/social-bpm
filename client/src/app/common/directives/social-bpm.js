@@ -6,11 +6,11 @@ socialBpmModule.directive(
     return {
       restrict: 'E',
       scope: {},
-      templateUrl: 'client/src/app/views/social-bpm-widget.html',
+      templateUrl: 'client/src/app/views/social-bpm-widget.html?version=' + new Date().getTime(),
       replace: true,
-      // controller: "DataController"
       controller: function ($scope, $element, $attrs, socialBpmDataService) {
         var filterType = $attrs.filterType;
+        console.log(filterType);
         // Calling social bpm data via ajax starts here
         socialBpmDataService
           .getSocialBpmData()
