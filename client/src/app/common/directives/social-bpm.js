@@ -2,6 +2,7 @@
  * Krishan Dadlani
  */
 var socialBpmModule = angular.module('social-bpm-app', []);
+
 socialBpmModule.directive(
   'socialBpmWidget',
   function () {
@@ -10,6 +11,7 @@ socialBpmModule.directive(
       scope: {},
       templateUrl: 'client/src/app/views/social-bpm-widget.html',
       replace: true,
+      // controller: "DataController"
       controller: function ($scope, $element, $attrs, socialBpmDataService) {
         var filterType = $attrs.filterType;
         // Calling social bpm data via ajax starts here
