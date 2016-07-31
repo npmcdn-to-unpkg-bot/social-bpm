@@ -1,18 +1,10 @@
 var banner_version = 1.01;
 
 //Uncomment for server set-up
-var WEBASSET_SERVER_URL = "http://ast@@@/";
 var SSO_BASE_URL = "http://env@@@/";
-var INTRANET_REDESIGN_BASE_URL = "http://env@@@/";
-var SOLR_BASE_URL = "http://solr@@@/solr/";
-var SOLRV5_BASE_URL = "http://solrv@@@/solr/";
-var PROFILES_JUNCTION = "junction_profiles@@@/";
+var DATA_SERVER_URL = "http://198.143.103.237/";
 
 var BANNER_CONTEXT_ROOT = "banner-widget/";
-var WELCOME_CONTEXT_ROOT = "welcome/";
-var KNOW_CONTEXT_ROOT = "ks/research/";
-var EXPERTISE_CONTEXT_ROOT = "expertise/";
-var INTRANET_REDESIGN_CONTEXT_ROOT = "intranet/";
 var BANNER_KSAPI_CONTEXT_ROOT = "ksapi/";
 
 
