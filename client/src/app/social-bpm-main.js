@@ -2,7 +2,7 @@
 var socialBpmAngular = window.angular;
 
 //namespacing jQuery for social bpm widget
-var jQueryBanner = $.noConflict(true);
+var socialBpmJQuery = $.noConflict(true);
 
 var socialBpmWidget = socialBpmAngular.module('socialBpmWidgetApp', ['social-bpm-app']);
 socialBpmAngular.element(document).ready(function () {
