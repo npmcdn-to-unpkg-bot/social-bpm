@@ -4,9 +4,11 @@
     "socialBpmDataService",
     function ($q, $http) {
       function getSocialBpmData() {
-        var dataUrl = AWS_SERVER_URL + 'data/data.json';
+        var dataUrl = AWS_SERVER_URL + 'social-bpm/data/finalbpm.json?callback=JSON_CALLBACK';
 
         var params = [];
+
+        console.log(dataUrl);
         return $http.jsonp(dataUrl, {params: params});
       }
 
@@ -27,5 +29,37 @@
       'self',
       '/client/src/app/views/**']);
   });
+
+  app.config(["$httpProvider", function ($httpProvider) {
+    $httpProvider.defaults.transformResponse.push(function(responseData){
+      convertDateStringsToDates(responseData);
+      return responseData;
+    });
+  }]);
+
+  function convertDateStringsToDates(input) {
+    var regexIso8601 = /^(\d{4}|\+\d{6})(?:-(\d{2})(?:-(\d{2})(?:T(\d{2}):(\d{2}):(\d{2})\.(\d{1,})(Z|([\-+])(\d{2}):(\d{2}))?)?)?)?$/;
+
+    // Ignore things that aren't objects.
+    if (typeof input !== "object") return input;
+
+    for (var key in input) {
+      if (!input.hasOwnProperty(key)) continue;
+
+      var value = input[key];
+      var match;
+      // Check for string properties which look like dates.
+      if (typeof value === "string" && (match = value.match(regexIso8601))) {
+        var milliseconds = Date.parse(match[0])
+        if (!isNaN(milliseconds)) {
+          input[key] = new Date(milliseconds);
+        }
+      } else if (typeof value === "object") {
+        // Recurse into object
+        convertDateStringsToDates(value);
+      }
+    }
+  }
+
 
 })(socialBpmAngular, socialBpmModule);
