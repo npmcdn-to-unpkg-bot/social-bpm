@@ -1,3 +1,4 @@
+angular.callbacks._0(
 [
   {
     "type": "Question",
@@ -20,7 +21,7 @@
       "name": "test1",
       "commentCount": 20,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "answers": [
       {
@@ -39,7 +40,7 @@
         "username": "Heather Fitzgerald",
         "socialTag": "NYU",
         "relevance": "high",
-        "url": "testurl",
+        "url": "testurl"
       }
     ]
   },
@@ -64,6 +65,7 @@
       "name": "test2",
       "commentCount": 5,
       "contentType": "document",
+	  "url": "testurl"
     },
     "answers": [
       {
@@ -81,7 +83,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "Ricky Rhodes",
         "socialTag": "Amazon",
-        "relevance": "medium",
+        "relevance": "medium"
       }
     ]
   },
@@ -106,7 +108,7 @@
       "name": "test3",
       "commentCount": 6,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "answers": [
       {
@@ -124,7 +126,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "Ernest Harrison",
         "socialTag": "Citi",
-        "relevance": "low",
+        "relevance": "low"
       }
     ]
   },
@@ -149,7 +151,7 @@
       "name": "test4",
       "commentCount": 7,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "answers": [
       {
@@ -167,7 +169,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "Teri Palmer",
         "socialTag": "NYU",
-        "relevance": "high",
+        "relevance": "high"
       }
     ]
   },
@@ -192,7 +194,7 @@
       "name": "test5",
       "commentCount": 10,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "answers": [
       {
@@ -210,7 +212,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "Heather Fitzgerald",
         "socialTag": "Amazon",
-        "relevance": "medium",
+        "relevance": "medium"
       }
     ]
   },
@@ -235,7 +237,7 @@
       "name": "test6",
       "commentCount": 11,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "answers": [
       {
@@ -253,7 +255,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "Tommy Russell",
         "socialTag": "Citi",
-        "relevance": "low",
+        "relevance": "low"
       }
     ]
   },
@@ -278,7 +280,7 @@
       "name": "test6",
       "commentCount": 11,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "answers": [
       {
@@ -296,7 +298,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "Beatrice Park",
         "socialTag": "NYU",
-        "relevance": "high",
+        "relevance": "high"
       }
     ]
   },
@@ -321,7 +323,7 @@
       "name": "test8",
       "commentCount": 14,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "answers": [
       {
@@ -339,7 +341,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "Samantha Walker",
         "socialTag": "Amazon",
-        "relevance": "medium",
+        "relevance": "medium"
       }
     ]
   },
@@ -364,7 +366,7 @@
       "name": "test9",
       "commentCount": 15,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "answers": [
       {
@@ -382,7 +384,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "Tamara Stokes",
         "socialTag": "Citi",
-        "relevance": "low",
+        "relevance": "low"
       }
     ]
   },
@@ -407,7 +409,7 @@
       "name": "test10",
       "commentCount": 17,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "answers": [
       {
@@ -425,7 +427,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "Vicky donor",
         "socialTag": "NYU",
-        "relevance": "high",
+        "relevance": "high"
       }
     ]
   },
@@ -450,7 +452,7 @@
       "name": "test11",
       "commentCount": 15,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "answers": [
       {
@@ -468,7 +470,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "Jimmy Falon",
         "socialTag": "Amazon",
-        "relevance": "medium",
+        "relevance": "medium"
       }
     ]
   },
@@ -493,7 +495,7 @@
       "name": "test12",
       "commentCount": 16,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "answers": [
       {
@@ -511,7 +513,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "Darleny",
         "socialTag": "Citi",
-        "relevance": "low",
+        "relevance": "low"
       }
     ]
   },
@@ -536,7 +538,7 @@
       "name": "test13",
       "commentCount": 17,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "answers": [
       {
@@ -554,7 +556,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "Ryan Holmes",
         "socialTag": "NYU",
-        "relevance": "high",
+        "relevance": "high"
       }
     ]
   },
@@ -579,7 +581,7 @@
       "name": "test14",
       "commentCount": 18,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "answers": [
       {
@@ -597,7 +599,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "Hilda Guzman",
         "socialTag": "Amazon",
-        "relevance": "medium",
+        "relevance": "medium"
       }
     ]
   },
@@ -622,7 +624,7 @@
       "name": "test15",
       "commentCount": 19,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "answers": [
       {
@@ -640,7 +642,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "Teri Palmer",
         "socialTag": "Citi",
-        "relevance": "low",
+        "relevance": "low"
       }
     ]
   },
@@ -665,7 +667,7 @@
       "name": "test16",
       "commentCount": 20,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "replies": [
       {
@@ -683,7 +685,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "Heather Fitzgerald",
         "socialTag": "NYU",
-        "relevance": "high",
+        "relevance": "high"
       }
     ]
   },
@@ -708,7 +710,7 @@
       "name": "test17",
       "commentCount": 20,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "replies": [
       {
@@ -726,7 +728,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "Adrian Barnes",
         "socialTag": "NYU",
-        "relevance": "high",
+        "relevance": "high"
       }
     ]
   },
@@ -751,7 +753,7 @@
       "name": "test18",
       "commentCount": 20,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "replies": [
       {
@@ -769,7 +771,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "Heather Fitzgerald",
         "socialTag": "NYU",
-        "relevance": "high",
+        "relevance": "high"
       }
     ]
   },
@@ -794,7 +796,7 @@
       "name": "test16",
       "commentCount": 20,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "replies": [
       {
@@ -812,7 +814,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "Sheila Estrada",
         "socialTag": "NYU",
-        "relevance": "high",
+        "relevance": "high"
       }
     ]
   },
@@ -837,7 +839,7 @@
       "name": "test20",
       "commentCount": 20,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "replies": [
       {
@@ -855,7 +857,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "Dustin",
         "socialTag": "NYU",
-        "relevance": "low",
+        "relevance": "low"
       }
     ]
   },
@@ -880,7 +882,7 @@
       "name": "test16",
       "commentCount": 20,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "replies": [
       {
@@ -898,7 +900,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "Ronaldo",
         "socialTag": "NYU",
-        "relevance": "medium",
+        "relevance": "medium"
       }
     ]
   },
@@ -923,7 +925,7 @@
       "name": "test16",
       "commentCount": 20,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "replies": [
       {
@@ -941,7 +943,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "Victoria",
         "socialTag": "NYU",
-        "relevance": "medium",
+        "relevance": "medium"
       }
     ]
   },
@@ -966,7 +968,7 @@
       "name": "test25",
       "commentCount": 20,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "replies": [
       {
@@ -984,7 +986,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "Edward",
         "socialTag": "NYU",
-        "relevance": "low",
+        "relevance": "low"
       }
     ]
   },
@@ -1009,7 +1011,7 @@
       "name": "test16",
       "commentCount": 20,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "replies": [
       {
@@ -1027,7 +1029,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "Anthony",
         "socialTag": "NYU",
-        "relevance": "high",
+        "relevance": "high"
       }
     ]
   },
@@ -1052,7 +1054,7 @@
       "name": "test16",
       "commentCount": 20,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "replies": [
       {
@@ -1070,7 +1072,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "Barney",
         "socialTag": "NYU",
-        "relevance": "low",
+        "relevance": "low"
       }
     ]
   },
@@ -1095,7 +1097,7 @@
       "name": "test25",
       "commentCount": 20,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "replies": [
       {
@@ -1113,7 +1115,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "Kayak",
         "socialTag": "NYU",
-        "relevance": "low",
+        "relevance": "low"
       }
     ]
   },
@@ -1138,7 +1140,7 @@
       "name": "test25",
       "commentCount": 20,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "replies": [
       {
@@ -1156,7 +1158,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "Tony Enright",
         "socialTag": "NYU",
-        "relevance": "medium",
+        "relevance": "medium"
       }
     ]
   },
@@ -1181,7 +1183,7 @@
       "name": "test25",
       "commentCount": 20,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "replies": [
       {
@@ -1199,7 +1201,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "James",
         "socialTag": "NYU",
-        "relevance": "low",
+        "relevance": "low"
       }
     ]
   },
@@ -1224,7 +1226,7 @@
       "name": "test25",
       "commentCount": 20,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "replies": [
       {
@@ -1242,7 +1244,7 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "Andrew",
         "socialTag": "NYU",
-        "relevance": "low",
+        "relevance": "low"
       }
     ]
   },
@@ -1267,7 +1269,7 @@
       "name": "test25",
       "commentCount": 20,
       "contentType": "document",
-      "url": "testurl",
+      "url": "testurl"
     },
     "replies": [
       {
@@ -1285,8 +1287,9 @@
         "groupUrl": "https://collaborate.citi.net/groups/citi-marketplace",
         "username": "John Barnes",
         "socialTag": "Citi",
-        "relevance": "medium",
+        "relevance": "medium"
       }
     ]
-  },
+  }
 ]
+)

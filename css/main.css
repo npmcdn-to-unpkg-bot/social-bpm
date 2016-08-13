@@ -1,0 +1,13 @@
+html {
+    background: url(../images/bg.png) no-repeat ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#social-bpm-app {
+    float: right;
+    margin-right: 10px;
+    margin-top: 135px;
+}
