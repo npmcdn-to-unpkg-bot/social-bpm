@@ -34,7 +34,7 @@
         "title": "Try what Maxence Barroy said. If that doesn't work, check out this answer:",
         "url": "http://stackoverflow.com/questions/38706550/gradle-build-failed-java-util-zip-zipexception-duplicate-entry-org-apache-com/38706847#38706847",
         "groupName": "Citi Marketplace Community",
-        "id": 158181,
+        "id": 10,
         "mainContent": "Since I don't know what your build.gradle file looks like, I can't really help you, but check out this answer too.",
         "postCount": 3,
         "likeCount": 4,
@@ -53,7 +53,7 @@
         "title": "Under Linux/Unix, look for anything that isn't text/plain:",
         "url": "http://stackoverflow.com/questions/38710469/which-command-can-be-used-to-determine-if-a-file-is-binary/38710526#38710526",
         "groupName": "Citi Marketplace Community",
-        "id": 158181,
+        "id": 11,
         "mainContent": "Edit: Actually, since file does classify between different types of text - file, the encoding might be the better way to go:",
         "postCount": 1,
         "likeCount": 1,
@@ -104,7 +104,7 @@
         "title": "Try what Maxence Barroy said.",
         "url": "http://stackoverflow.com/questions/38706550/gradle-build-failed-java-util-zip-zipexception-duplicate-entry-org-apache-com/38706847#38706847",
         "groupName": "Citi Marketplace Community",
-        "id": 158182,
+        "id": 22,
         "mainContent": "Try what Maxence Barroy said. If that doesn't work, check out this answer:",
         "postCount": 1,
         "likeCount": 1,
@@ -153,7 +153,7 @@
         "title": "huh you again. Ever figure",
         "url": "http://stackoverflow.com/questions/38706648/classcastexception-on-layoutinflater-inflate/38710768#38710768",
         "groupName": "Citi Marketplace Community",
-        "id": 158183,
+        "id": 23,
         "mainContent": "huh you again. Ever figure out why sysout was printing null?",
         "postCount": 2,
         "likeCount": 5,
@@ -171,7 +171,7 @@
         "title": "I assume that your boundaries correspond to the following:",
         "url": "http://stackoverflow.com/questions/38710714/sql-statistics-normal-distribution-amount-range/38710767#38710767",
         "groupName": "Citi Marketplace Community",
-        "id": 158183,
+        "id": 24,
         "mainContent": "Hence I assume that your X markers define the quartiles of the Amount distribution. Subqueries can be used",
         "postCount": 2,
         "likeCount": 5,
@@ -221,7 +221,7 @@
         "title": "Hm... I think this is what you want",
         "url": "http://stackoverflow.com/questions/38709332/swift-how-to-put-a-mapview-in-uiview/38710764#38710764",
         "groupName": "Citi Marketplace Community",
-        "id": 158184,
+        "id": 32,
         "mainContent": "func initMapView() {",
         "postCount": 3,
         "likeCount": 2,
@@ -273,7 +273,7 @@
         "title": "Here's a running sample: https://jsfiddle.net/b4rf3ne2/",
         "url": "http://stackoverflow.com/questions/38710094/how-to-define-multiple-arrays-in-javascript/38710762#38710762",
         "groupName": "Citi Marketplace Community",
-        "id": 158185,
+        "id": 43,
         "mainContent": "Using ES6 I think we can make marginal improvements.",
         "postCount": 4,
         "likeCount": 2,
@@ -291,7 +291,7 @@
         "title": "The below will work as long as the the part after the decimal point always ends in 000",
         "url": "http://stackoverflow.com/questions/38710721/strptime-with-timestamp-and-am-pm/38710761#38710761",
         "groupName": "Citi Marketplace Community",
-        "id": 158185,
+        "id": 44,
         "mainContent": "captures microseconds, while I guess your timestamp uses nanoseconds?",
         "postCount": 4,
         "likeCount": 2,
@@ -309,7 +309,7 @@
         "title": "I still think there's a few easy things you can do that will make a",
         "url": "http://stackoverflow.com/questions/38215784/scenekit-make-blocks-more-lifelike-or-3d-like/38258789#38258789",
         "groupName": "Citi Marketplace Community",
-        "id": 158185,
+        "id": 34,
         "mainContent": "Right now your scene is only lit by an ambient light.",
         "postCount": 4,
         "likeCount": 2,
@@ -358,7 +358,7 @@
         "title": "No Follow, You stated no reason not to, and every reason to do",
         "url": "http://stackoverflow.com/questions/38710741/sitewide-seal-image-with-link-back-to-our-site-on-all-our-clients/38710758#38710758",
         "groupName": "Citi Marketplace Community",
-        "id": 158186,
+        "id": 12,
         "mainContent": "Google is a 50-50 kind thing, depends whos behind what desk. Stick the safe road.",
         "postCount": 5,
         "likeCount": 8,
@@ -408,7 +408,7 @@
         "title": "If you store the suit names in another array",
         "url": "http://stackoverflow.com/questions/38710094/how-to-define-multiple-arrays-in-javascript/38710754#38710754",
         "groupName": "Citi Marketplace Community",
-        "id": 158187,
+        "id": 17,
         "mainContent": "it eliminates a lot of variables; then using apply with concat can get them all into Result in one shot:",
         "postCount": 2,
         "likeCount": 4,
@@ -426,7 +426,7 @@
         "title": "You can look in the Controls collection of the cell for t",
         "url": "http://stackoverflow.com/questions/38710507/get-a-reference-to-the-edit-button-in-a-gridview-with-findcontrol/38710602#38710602",
         "groupName": "Citi Marketplace Community",
-        "id": 158187,
+        "id": 18,
         "mainContent": "Dim cell as TableCell = e.Row.Cells(4) '",
         "postCount": 2,
         "likeCount": 4,
@@ -476,7 +476,7 @@
         "title": "It's giving you the answer right here:",
         "url": "http://stackoverflow.com/questions/38710413/ansible-not-performing-a-simple-yum-install/38710753#38710753",
         "groupName": "Citi Marketplace Community",
-        "id": 158188,
+        "id": 28,
         "mainContent": "Maybe the package you are looking for is procps, htop or mtop",
         "postCount": 3,
         "likeCount": 2,
@@ -527,7 +527,7 @@
         "title": "The JMX PORT you are listening is the broker port.",
         "url": "http://stackoverflow.com/questions/37799564/kafka-consumer-jmx-properties/38710750#38710750",
         "groupName": "Citi Marketplace Community",
-        "id": 158189,
+        "id": 39,
         "mainContent": "But the Mbean of kafka.consumer: is the consumer jvm metrics. ",
         "postCount": 6,
         "likeCount": 1,
@@ -545,7 +545,7 @@
         "title": "ConvNet - C++ library for convolutional neural networks",
         "url": "http://stackoverflow.com/questions/38710574/what-is-the-best-convolutional-neural-networks-cnn-library-for-opencv-with-s/38710749#38710749",
         "groupName": "Citi Marketplace Community",
-        "id": 158189,
+        "id": 29,
         "mainContent": "ConvNet is a C++ library implementing data propagation throught convolutional neural networks.",
         "postCount": 6,
         "likeCount": 1,
@@ -563,7 +563,7 @@
         "title": "have a look on Tour de Flex app to explore Flex capabilities and resources",
         "url": "http://stackoverflow.com/questions/11308763/does-flex-provides-some-core-components-to-display-interactive-maps-show-lattit/11314830#11314830",
         "groupName": "Citi Marketplace Community",
-        "id": 158189,
+        "id": 44,
         "mainContent": "Nothing built-in and the choice of API depends on your use case",
         "postCount": 6,
         "likeCount": 1,
@@ -615,7 +615,7 @@
         "title": "After further investigation",
         "url": "http://stackoverflow.com/questions/38710654/rctwebsocket-ignoring-return-value-of-function-declared-with-warn-unused-resul/38710747#38710747",
         "groupName": "Citi Marketplace Community",
-        "id": 158190,
+        "id": 31,
         "mainContent": "Once you remove Custom Compiler Flags under Build Settings for RCTWebSocket, all was well.",
         "postCount": 7,
         "likeCount": 3,
@@ -664,7 +664,7 @@
         "title": "Your code works great except that",
         "url": "http://stackoverflow.com/questions/38710658/css-hover-does-not-react/38710746#38710746",
         "groupName": "Citi Marketplace Community",
-        "id": 158191,
+        "id": 43,
         "mainContent": "You had an extra colon in there.",
         "postCount": 1,
         "likeCount": 2,
@@ -682,7 +682,7 @@
         "title": "Put this in your .vimrc or in a script:",
         "url": "http://stackoverflow.com/questions/38709169/vim-command-scroll-up-and-down-does-a-plugin-exist-for-this/38710390#38710390",
         "groupName": "Citi Marketplace Community",
-        "id": 158191,
+        "id": 42,
         "mainContent": "EDIT: As rgoliveira stated in the comment that could interfere with match command. You need only to remove the autocommand and make it back whenever you use it:",
         "postCount": 1,
         "likeCount": 0,
@@ -731,7 +731,7 @@
         "title": "This is my answer on my own question but anyways",
         "url": "http://stackoverflow.com/questions/38695865/000000001-and-so-on-as-unique-id/38710744#38710744",
         "groupName": "Citi Marketplace Community",
-        "id": 158192,
+        "id": 41,
         "mainContent": "TYSM for those commentators who didn't answer my question instead give me a negative code.",
         "postCount": 0,
         "likeCount": 1,
@@ -781,7 +781,7 @@
         "title": "When I inspect the .txt file this script creates",
         "url": "http://stackoverflow.com/questions/38710286/how-to-save-tm-map-output-to-csv-file/38710624#38710624",
         "groupName": "Citi Marketplace Community",
-        "id": 158193,
+        "id": 39,
         "mainContent": "I see all of the different documents. They are however in a human un-friendly format.",
         "postCount": 3,
         "likeCount": 2,
@@ -830,7 +830,7 @@
         "title": "Under Linux/Unix, look for anything that isn't text/plain:",
         "url": "http://stackoverflow.com/questions/38710469/which-command-can-be-used-to-determine-if-a-file-is-binary/38710526#38710526",
         "groupName": "Citi Marketplace Community",
-        "id": 158194,
+        "id": 38,
         "mainContent": "Actually, since file does classify between different types of text-file, the encoding might be the better way to go:",
         "postCount": 4,
         "likeCount": 5,
@@ -881,7 +881,7 @@
         "title": "You can use a static variable to hold the value",
         "url": "http://stackoverflow.com/questions/38710011/java-increase-the-value-of-a-leading-zero-string/38710046#38710046",
         "groupName": "Citi Marketplace Community",
-        "id": 158195,
+        "id": 37,
         "mainContent": "After saying correctly what you, all you need is a static variable",
         "postCount": 5,
         "likeCount": 2,
@@ -899,7 +899,7 @@
         "title": "Projects provide an aggregated view of a collection of applications, but that's about it",
         "url": "http://stackoverflow.com/questions/38692251/whats-the-relationship-between-projects-and-applications-in-spinnaker/38710771#38710771",
         "groupName": "Citi Marketplace Community",
-        "id": 158195,
+        "id": 36,
         "mainContent": "The relationship is modeled as many-to-many: a project is made up of one or more applications, and applications can be part of multiple projects.",
         "postCount": 3,
         "likeCount": 1,
@@ -942,14 +942,14 @@
       "contentType": "document",
       "url": "testurl"
     },
-    "replies": [
+    "answers": [
       {
         "type": "Reply1",
         "Published": "March 22, 2016,07:14:22 EDT",
         "title": "Is it possible to start multi physical node hadoop clustster using docker?",
         "url": "http://stackoverflow.com/questions/37267304/is-it-possible-to-start-multi-physical-node-hadoop-clustster-using-docker/38710852#38710852",
         "groupName": "Citi Marketplace Community",
-        "id": 158196,
+        "id": 35,
         "mainContent": "Cloudera now supports multi-node cluster on docker. You can check it out now at",
         "postCount": 2,
         "likeCount": 7,
@@ -967,7 +967,7 @@
         "title": "IOS show message on screen but does not interrupt user interaction",
         "url": "http://stackoverflow.com/questions/38710693/ios-show-message-on-screen-but-does-not-interrupt-user-interaction/38710851#38710851",
         "groupName": "Citi Marketplace Community",
-        "id": 158196,
+        "id": 34,
         "mainContent": "Looks like the easiest thing will be to use SVProgressHUDMaskTypeNone",
         "postCount": 2,
         "likeCount": 7,
@@ -982,7 +982,7 @@
     ]
   },
   {
-    "type": "Discussion",
+    "type": "Question",
     "Published": "April 02, 2016,12:24:12 EDT",
     "title": "rails form partial breaks Bootstrap popover",
     "url": "http://stackoverflow.com/questions/38710663/rails-form-partial-breaks-bootstrap-popover",
@@ -1012,14 +1012,14 @@
       "contentType": "document",
       "url": "testurl"
     },
-    "replies": [
+    "answers": [
       {
         "type": "Reply",
         "Published": "April 03, 2016,12:19:45 EDT",
         "title": "Update UI prior to ggvis plot in R Shiny",
         "url": "http://stackoverflow.com/questions/38709495/update-ui-prior-to-ggvis-plot-in-r-shiny/38710779#38710779",
         "groupName": "Citi Marketplace Community",
-        "id": 158197,
+        "id": 33,
         "mainContent": "My challenge is that I want the UI to be updated based on the data before the plot is updated. Otherwise the fine filters from the old dataset are applied to the new data, which results in an error when plotting",
         "postCount": 2,
         "likeCount": 3,
@@ -1034,7 +1034,7 @@
     ]
   },
   {
-    "type": "Discussion",
+    "type": "Question",
     "Published": "April 15, 2016,11:15:28 EDT",
     "title": "History.js usage for single page applications",
     "url": "http://stackoverflow.com/questions/38710525/history-js-usage-for-single-page-applications",
@@ -1064,14 +1064,14 @@
       "contentType": "document",
       "url": "testurl"
     },
-    "replies": [
+    "answers": [
       {
         "type": "Reply1",
         "Published": "April 16, 2016,11:26:35 EDT",
         "title": "Run a hadoop cluster on docker containers",
         "url": "http://stackoverflow.com/questions/27008522/run-a-hadoop-cluster-on-docker-containers/38710849#38710849",
         "groupName": "Citi Marketplace Community",
-        "id": 158198,
+        "id": 32,
         "mainContent": "did this with two containers running master and slave nodes on two different ubuntu hosts. I did the networking between containers using weave.",
         "postCount": 2,
         "likeCount": 6,
@@ -1089,7 +1089,7 @@
         "title": "here are the SHFILEINFO struct and Win32 class implementations",
         "url": "http://stackoverflow.com/questions/26205607/getting-folder-icon-path/38710847#38710847",
         "groupName": "Citi Marketplace Community",
-        "id": 158198,
+        "id": 31,
         "mainContent": "This MSDN article shows how to extract the icon from a directory. One possible solution would be to extract the associated icon from the directory and save it in the directory",
         "postCount": 2,
         "likeCount": 6,
@@ -1107,7 +1107,7 @@
         "title": "CSS hover does not react",
         "url": "http://stackoverflow.com/questions/38710658/css-hover-does-not-react/38710846#38710846",
         "groupName": "Citi Marketplace Community",
-        "id": 158198,
+        "id": 30,
         "mainContent": "Just one colon in li:hover will do. One colon is used to indicate a pseudo-class (a small set of possible states such as link, visited, hover, first-child)",
         "postCount": 2,
         "likeCount": 6,
@@ -1122,7 +1122,7 @@
     ]
   },
   {
-    "type": "Discussion",
+    "type": "Question",
     "Published": "April 11, 2016,11:47:25 EDT",
     "title": "RCTWebSocket - Ignoring return value of function declared with warn_unused_result attribute",
     "url": "http://stackoverflow.com/questions/38710654/rctwebsocket-ignoring-return-value-of-function-declared-with-warn-unused-resul",
@@ -1149,14 +1149,14 @@
       "contentType": "document",
       "url": "testurl"
     },
-    "replies": [
+    "answers": [
       {
         "type": "Reply",
         "Published": "April 12, 2016,01:45:24 EDT",
         "title": "If you are testing multiple sentences against one file, loading the file into the array is clearly better. If your file is larger than your memory (shouldn't happen really, not with 600kb), then do it the other way around.",
         "url": "http://stackoverflow.com/questions/38710711/quick-way-to-find-common-words-between-two-strings/38710807#38710807",
         "groupName": "Citi Marketplace Community",
-        "id": 158199,
+        "id": 29,
         "mainContent": " In PHP, associative arrays are implemented as hashtables. So your array will look like this",
         "postCount": 2,
         "likeCount": 0,
@@ -1171,7 +1171,7 @@
     ]
   },
   {
-    "type": "Discussion",
+    "type": "Question",
     "Published": "April 28, 2016,13:17:25 EDT",
     "title": "float property for inline element",
     "url": "http://stackoverflow.com/questions/38710678/float-property-for-inline-element",
@@ -1199,14 +1199,14 @@
       "contentType": "document",
       "url": "testurl"
     },
-    "replies": [
+    "answers": [
       {
         "type": "Reply",
         "Published": "April 28, 2016,17:18:45 EDT",
         "title": "Good for Enterprise on Windows 10 (Surface Pro 4 Tablet)?16",
         "url": "https://collaborate.citi.net/message/565218#565218",
         "groupName": "Citi Marketplace Community",
-        "id": 158200,
+        "id": 28,
         "mainContent": "Actually, please note current version of Good for Enterprise works smoothly on Surface Pro 4 and basically on any other hardware with Windows 8 (and newer) too.16",
         "postCount": 2,
         "likeCount": 1,
@@ -1221,7 +1221,7 @@
     ]
   },
   {
-    "type": "Discussion",
+    "type": "Question",
     "Published": "April 04, 2016,17:36:55 EDT",
     "title": "GDocs ImportHTML/XML not getting proper data",
     "url": "http://stackoverflow.com/questions/38710356/gdocs-importhtml-xml-not-getting-proper-data",
@@ -1248,14 +1248,14 @@
       "contentType": "document",
       "url": "testurl"
     },
-    "replies": [
+    "answers": [
       {
         "type": "Reply1",
         "Published": "April 05, 2016,12:36:55 EDT",
         "title": "Your current algorithm complexity is O(N*M). To improve it, you can use hashtable to store the words from the file. In PHP, associative arrays are implemented as hashtables. So your array will look like this",
         "url": "http://stackoverflow.com/questions/38710711/quick-way-to-find-common-words-between-two-strings/38710842#38710842",
         "groupName": "Citi Marketplace Community",
-        "id": 158201,
+        "id": 27,
         "mainContent": "Quick way to find common words between two strings",
         "postCount": 2,
         "likeCount": 0,
@@ -1273,7 +1273,7 @@
         "title": "SQL GROUP BY with logical function",
         "url": "http://stackoverflow.com/questions/38710809/sql-group-by-with-logical-function/38710839#38710839",
         "groupName": "Citi Marketplace Community",
-        "id": 158201,
+        "id": 26,
         "mainContent": "I am interested in finding, for each person in the dataset, whether they have ever fallen off a chair. I.E whether event = 'fell off chair' for that ID.",
         "postCount": 2,
         "likeCount": 0,
@@ -1288,7 +1288,7 @@
     ]
   },
   {
-    "type": "Discussion",
+    "type": "Question",
     "Published": "May 17, 2016,09:25:55 EDT",
     "title": "http://stackoverflow.com/questions/38710740/does-having-more-html-elements-take-up-memory-that-could-otherwise-be-used-by-th",
     "url": "http://stackoverflow.com/users/3942699/feihcsim",
@@ -1316,14 +1316,14 @@
       "contentType": "document",
       "url": "testurl"
     },
-    "replies": [
+    "answers": [
       {
         "type": "Reply1",
         "Published": "May 20, 2016,08:59:55 EDT",
         "title": "Cloudera support for docker container or Docker support for CM 5 image",
         "url": "http://stackoverflow.com/questions/26392288/cloudera-support-for-docker-container-or-docker-support-for-cm-5-image/38710836#38710836",
         "groupName": "Citi Marketplace Community",
-        "id": 158202,
+        "id": 25,
         "mainContent": "Does cloudera compatable with Docker container? 2) Is there any known issue related to docker and cloudera combination?",
         "postCount": 2,
         "likeCount": 7,
@@ -1341,7 +1341,7 @@
         "title": "You may also want to check that the connection is correctly returning an END HTTP and not throwing an ERROR after it. Output each inputLine to your console while processing it to check for anything unusual.",
         "url": "http://stackoverflow.com/questions/38710257/how-to-fix-eofexception/38710837#38710837",
         "groupName": "Citi Marketplace Community",
-        "id": 158202,
+        "id": 24,
         "mainContent": "You may also want to adjust your try catch block to correctly close the reader if an exception is thrown. Also be more specific with your catch blocks, for example: catch IOException and not Exception as this will allow you to handle these cases cleaner as you may want to handle IOExceptions differently from other Exceptions",
         "postCount": 2,
         "likeCount": 7,
@@ -1359,7 +1359,7 @@
         "title": "Vim command Scroll Up and down - Does a plugin exist for this?",
         "url": "http://stackoverflow.com/questions/38709169/vim-command-scroll-up-and-down-does-a-plugin-exist-for-this/38710390#38710390",
         "groupName": "Citi Marketplace Community",
-        "id": 158202,
+        "id": 23,
         "mainContent": " I wanted to know if there was a way for vim to always have a light coloured line in the center of screen (so i could use the line as a reference to the new content whenever i press ctrl+f (scroll half screen))",
         "postCount": 2,
         "likeCount": 7,
@@ -1374,7 +1374,7 @@
     ]
   },
   {
-    "type": "Discussion",
+    "type": "Question",
     "Published": "May 08, 2016,12:16:15 EDT",
     "title": "Python Pandas: Split slash separated strings in two or more columns into multiple rows",
     "url": "http://stackoverflow.com/questions/38709423/python-pandas-split-slash-separated-strings-in-two-or-more-columns-into-multipl",
@@ -1402,14 +1402,14 @@
       "contentType": "document",
       "url": "testurl"
     },
-    "replies": [
+    "answers": [
       {
         "type": "Reply",
         "Published": "May 08, 2016,12:26:55 EDT",
         "title": "ASP.NET CheckBox not checked on postback without weird hack",
         "url": "http://stackoverflow.com/questions/38708500/asp-net-checkbox-not-checked-on-postback-without-weird-hack/38710690#38710690",
         "groupName": "Citi Marketplace Community",
-        "id": 158203,
+        "id": 22,
         "mainContent": "That is an interesting behavior. I reproduce the problem if I bind the data to the GridView in Page_Load on every postback. In that situation, the check boxes lose their selection state on postback, but not if we refer to imageGridView.Rows in Page_Init, as you observed.",
         "postCount": 2,
         "likeCount": 2,
@@ -1424,7 +1424,7 @@
     ]
   },
   {
-    "type": "Discussion",
+    "type": "Question",
     "Published": "May 09, 2016,12:09:23 EDT",
     "title": "Does having more HTML elements take up memory that could otherwise be used by the browser for JavaScript?",
     "url": "http://stackoverflow.com/questions/38710740/does-having-more-html-elements-take-up-memory-that-could-otherwise-be-used-by-th",
@@ -1452,14 +1452,14 @@
       "contentType": "document",
       "url": "testurl"
     },
-    "replies": [
+    "answers": [
       {
         "type": "Reply",
         "Published": "May 12, 2016,08:14:25 EDT",
         "title": "Yes, you can...For example, following code works.",
         "url": "http://stackoverflow.com/questions/38710724/does-elms-lambda-syntax-support-destructuring/38710825#38710825",
         "groupName": "Citi Marketplace Community",
-        "id": 158204,
+        "id": 21,
         "mainContent": "expect a tuple parameter to be destructured?",
         "postCount": 2,
         "likeCount": 8,
@@ -1474,7 +1474,7 @@
     ]
   },
   {
-    "type": "Discussion",
+    "type": "Question",
     "Published": "May 24, 2016,16:14:55 EDT",
     "title": "Injecting data into javascript with Python Flask",
     "url": "http://stackoverflow.com/questions/38710603/injecting-data-into-javascript-with-python-flask",
@@ -1502,14 +1502,14 @@
       "contentType": "document",
       "url": "testurl"
     },
-    "replies": [
+    "answers": [
       {
         "type": "Reply",
         "Published": "May 24, 2016,18:15:54 EDT",
         "title": "Unwind an array in DocumentDB query",
         "url": "http://stackoverflow.com/questions/38710725/unwind-an-array-in-documentdb-query/38710822#38710822",
         "groupName": "Citi Marketplace Community",
-        "id": 158205,
+        "id": 20,
         "mainContent": "Is this possible with a DocumentDB query?",
         "postCount": 2,
         "likeCount": 1,
@@ -1524,7 +1524,7 @@
     ]
   },
   {
-    "type": "Discussion",
+    "type": "Question",
     "Published": "May 02, 2016,11:12:10 EDT",
     "title": "why I get nothing about kafka metrics with jmxtrans since I can get JVM heap info?",
     "url": "http://stackoverflow.com/questions/38549290/why-i-get-nothing-about-kafka-metrics-with-jmxtrans-since-i-can-get-jvm-heap-inf",
@@ -1554,14 +1554,14 @@
       "contentType": "document",
       "url": "testurl"
     },
-    "replies": [
+    "answers": [
       {
         "type": "Reply1",
         "Published": "May 03, 2016,12:36:55 EDT",
         "title": "Right now,I'm using this function(based on Lagrange polynomial) to get a changing time every millisecond by passing a System.currentMills.But it didn't work,it's not allowed to pass a changing time as a parameter?",
         "url": "http://stackoverflow.com/questions/38711010/are-there-any-ways-to-get-a-changing-time-every-millisecond/38711073#38711073",
         "groupName": "Citi Marketplace Community",
-        "id": 158206,
+        "id": 19,
         "mainContent": " You can call System.currentMillis with the function itself instead of passing a parameter of millis",
         "postCount": 2,
         "likeCount": 8,
@@ -1579,7 +1579,7 @@
         "title": " R lattice boxplot grids",
         "url": "http://stackoverflow.com/questions/38710505/r-lattice-boxplot-grids/38711072#38711072",
         "groupName": "Citi Marketplace Community",
-        "id": 158206,
+        "id": 18,
         "mainContent": "When I do xyplot it plots fine. I'm new to R so I'm sure its a dumb mistake but can anyone help/answer why there is different behavior for xyplot and bwplot and how I can get a 4x4 of the boxplots?",
         "postCount": 2,
         "likeCount": 8,
@@ -1594,7 +1594,7 @@
     ]
   },
   {
-    "type": "Discussion",
+    "type": "Question",
     "Published": "December 21, 2015,11:16:55 EDT",
     "title": "Issues with taking input from a form and outputting the result in a Google Chart using Ajax and jQuery",
     "url": "http://stackoverflow.com/questions/38710780/issues-with-taking-input-from-a-form-and-outputting-the-result-in-a-google-chart",
@@ -1624,14 +1624,14 @@
       "contentType": "document",
       "url": "testurl"
     },
-    "replies": [
+    "answers": [
       {
         "type": "Reply",
         "Published": "December 22, 2015,12:36:55 EDT",
         "title": "I'm learning Angular on Plural Sight and the first lesson gives an example of how to use the ng-app directive.",
         "url": "http://stackoverflow.com/questions/38710913/why-isnt-this-angular-expression-working-in-plunker-843-42/38711071#38711071",
         "groupName": "Citi Marketplace Community",
-        "id": 158207,
+        "id": 17,
         "mainContent": " The example that was given uses the expression {{ 843 / 42 }} to demonstrate how angular would render the quotient on a webpage.",
         "postCount": 2,
         "likeCount": 4,
@@ -1646,7 +1646,7 @@
     ]
   },
   {
-    "type": "Discussion",
+    "type": "Question",
     "Published": "December 24, 2015,08:23:55 EDT",
     "title": "PHP switch issue",
     "url": "http://stackoverflow.com/questions/38709491/php-switch-issue",
@@ -1674,14 +1674,14 @@
       "contentType": "document",
       "url": "testurl"
     },
-    "replies": [
+    "answers": [
       {
         "type": "Reply",
         "Published": "December 27, 2015,10:16:55 EDT",
         "title": " Warning: require_oncefailed to open stream: No such file or directory in on line 12",
         "url": "http://stackoverflow.com/questions/38710644/i-keep-on-getting-these-errors-yii-and-pear/38711069#38711069",
         "groupName": "Citi Marketplace Community",
-        "id": 158208,
+        "id": 16,
         "mainContent": "I keep on getting these errors. Yii and Pear..",
         "postCount": 2,
         "likeCount": 7,
@@ -1696,7 +1696,7 @@
     ]
   },
   {
-    "type": "Discussion",
+    "type": "Question",
     "Published": "December 18, 2015,17:08:29 EDT",
     "title": "Update UI prior to ggvis plot in R Shiny",
     "url": "http://stackoverflow.com/questions/38709495/update-ui-prior-to-ggvis-plot-in-r-shiny",
@@ -1724,14 +1724,14 @@
       "contentType": "document",
       "url": "testurl"
     },
-    "replies": [
+    "answers": [
       {
         "type": "Reply",
         "Published": "December 19, 2015,12:15:55 EDT",
         "title": "when i press the button on form 1 two times it open the second form two times and then it will not open the second form even i press the button multiple times on form 1.",
         "url": "http://stackoverflow.com/questions/38710879/how-i-open-limeted-second-form-from-first-from-using-object-constructor-in-c-sha/38711053#38711053",
         "groupName": "Citi Marketplace Community",
-        "id": 158209,
+        "id": 14,
         "mainContent": "how i open limeted second form from first from using object constructor in c#",
         "postCount": 2,
         "likeCount": 1,
@@ -1746,7 +1746,7 @@
     ]
   },
   {
-    "type": "Discussion",
+    "type": "Question",
     "Published": "December 07, 2015,06:15:35 EDT",
     "title": "Using Physics Body Editor, Can&#39;t Find Name error",
     "url": "http://stackoverflow.com/questions/38710778/using-physics-body-editor-cant-find-name-error",
@@ -1773,14 +1773,14 @@
       "contentType": "document",
       "url": "testurl"
     },
-    "replies": [
+    "answers": [
       {
         "type": "Reply",
         "Published": "December 07, 2015,20:15:45 EDT",
         "title": "In my opnion, you should use url() Laravel method",
         "url": "http://stackoverflow.com/questions/38709886/call-route-from-button-click-laravel/38710638#38710638",
         "groupName": "Citi Marketplace Community",
-        "id": 158210,
+        "id": 15,
         "mainContent": "call route from button click laravel",
         "postCount": 2,
         "likeCount": 3,
