@@ -5,7 +5,7 @@ $(document).ready(function () {
   console.log(d);
 
   $('body').on('click', '.vertical-carousel-left-thumbnails-form-links', function () {
-    $("#answers").slideToggle("slow");
+    $(this).children(".answers").slideToggle("slow");
   });
 
   document.addEventListener('DOMContentLoaded', function () {
@@ -17,11 +17,6 @@ $(document).ready(function () {
     if (Notification.permission !== "granted")
       Notification.requestPermission();
   });
-
-  $(".more-link").click(function () {
-    notifyMe();
-  });
-
 
   (function loop() {
     var rand = Math.round(Math.random() * (10000 - 500)) + 7000;

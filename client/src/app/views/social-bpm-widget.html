@@ -1,167 +1,67 @@
 <div class="responsive-intranet">
-    <div class="module-root"
-         verticalcarouselleftthumbnailsform="" value="value" index="0">
-        <div id="_module" class="vertical-carousel-left-thumbnails-form-block">
-            <div class="vertical-carousel-left-thumbnails-form-badge module-title-bar">
-                <p>Citibank Social BPM Widget <span class="more-link"><a
-                        href="#"
-                        title="Click to view Profiles page">More</a> </span></p>
-            </div>
-            <div class="vertical-carousel-left-thumbnails-form-links-wrapper">
-                <ul>
-
-
-                    <li ng-repeat="post in posts" class="vertical-carousel-left-thumbnails-form-links">
+	<div class="module-root"
+		 verticalcarouselleftthumbnailsform="" value="value" index="0">
+		<div id="_module" class="vertical-carousel-left-thumbnails-form-block">
+			<div class="vertical-carousel-left-thumbnails-form-badge module-title-bar">
+				<p>Citibank Social BPM Widget <span class="more-link">
+						<a href="#" title="Click to view Profiles page" ng-click="toggleMenu()">Settings</a>
+					</span>
+				</p>
+			</div>
+			<div class="sort-menu">
+				<ul sort-menu="" ng-show="canShowMenu">
+					<li ng-click="sortByMostRecent()">Sort by most recent</li>
+					<li ng-click="sortByOldestFirst()">Sort by oldest first</li>
+					<li ng-click="filterByCiti()">Filter by @Citi</li>
+					<li ng-click="filterByNyu()">Filter by @NYU</li>
+				</ul>
+			</div>
+			<div class="vertical-carousel-left-thumbnails-form-links-wrapper">
+				<ul>
+					<li ng-repeat="post in posts" class="vertical-carousel-left-thumbnails-form-links">
 						<span class="text-wrapper">
 							<span class="profile-thumbnail">
 								<img title="Click to view Shelly Murphy's profile" alt=""
-									 src="client/src/assets/img/avatars/female/34.png">
+									 src="client/src/assets/img/avatars/{{post.id}}.png">
 							</span>
-							<p class="item-name"><a href="#"
-													target="_blank">{{post.username}}</a></p>
-							<p class="item-title">{{post.user}} &nbsp;&nbsp;&nbsp; @{{post.socialTag}}</p>
-								<!-- p class="item-title">{{post.tags}}</p --->
+							<p class="item-name"><a href="#">{{post.username}}</a></p>
+							<p class="item-title">{{post.position}} &nbsp;&nbsp;&nbsp; @{{post.socialTag}}</p>
 							<p class="item-comment">{{post.title}}</p>
 							<p class="item-post-time">{{post.Published}}</p>
 							<ul class="social-data">
-								<li class="social-likes"><span><i class="fa fa-heart"></i> {{post.postCount}}</span></li>
+								<li class="social-likes"><span><i
+										class="fa fa-heart"></i> {{post.postCount}}</span></li>
 								<li class="social-comments"><span><i
 										class="fa fa-comment"></i> {{post.likeCount}}</span></li>
 							</ul>
-
-							<div id="answers" style="display: none">
-								Hello World!!!
-							</div>
 						</span>
-                    </li>
 
+						<div class="answers" style="display: none;">
+							<ul>
+								<li ng-repeat="answer in post.answers" class="vertical-carousel-left-thumbnails-form-links">
+									<span class="text-wrapper">
+									<span class="profile-thumbnail">
+										<img title="Click to view Shelly Murphy's profile" alt=""
+											 src="client/src/assets/img/avatars/{{answer.id}}.png">
+									</span>
+									<p class="item-name"><a href="#"
+															target="_blank">{{answer.username}}</a></p>
+									<p class="item-title">{{post.position}} &nbsp;&nbsp;&nbsp; @{{answer.socialTag}}</p>
+										<!-- p class="item-title">{{post.tags}}</p --->
+									<p class="item-comment">{{answer.title}}</p>
+									<p class="item-post-time">{{answer.Published}}</p>
+								</span>
+								</li>
+							</ul>
+						</div>
 
-                    <li class="vertical-carousel-left-thumbnails-form-links">
-					<span class="text-wrapper">
-						<span class="profile-thumbnail">
-							<img title="Click to view Shelly Murphy's profile" alt=""
-                                 src="client/src/assets/img/avatars/female/34.png">
-						</span>
-						<p class="item-name"><a href="#"
-                                                target="_blank">Shelly Murphy</a></p>
-						<p class="item-title">Finance Analyst &nbsp;&nbsp;&nbsp; New York (NY/NYO)</p>
-						<p class="item-comment">Awesome Sauce!!! #awesomesauce #diversitymatters</p>
-						<p class="item-post-time">18 hours ago</p>
-						<ul class="social-data">
-							<li class="social-likes"><span><i class="fa fa-heart"></i> 0</span></li>
-							<li class="social-comments"><span><i class="fa fa-comment"></i> 0</span></li>
-						</ul>
-					</span>
-                    </li>
-                    <li class="vertical-carousel-left-thumbnails-form-links">
-					<span class="text-wrapper">
-						<span class="profile-thumbnail">
-							<img title="Click to view Jonas Binding's profile" alt=""
-                                 src="client/src/assets/img/avatars/male/5.png">
-						</span>
-						<p class="item-name"><a href="#"
-                                                target="_blank">Jonas Binding</a></p>
-						<p class="item-title">Credit Manager &nbsp;&nbsp;&nbsp; Stuttgart (BT/Germany)</p>
-						<p class="item-comment">Did you know you can tell Box what timezone your are in? Go to #box #advice</p>
-						<p class="item-post-time">1 day ago</p>
-						<ul class="social-data">
-							<li class="social-likes"><span><i class="fa fa-heart"></i> 1</span></li>
-							<li class="social-comments"><span><i class="fa fa-comment"></i> 1</span></li>
-						</ul>
-					</span>
-                    </li>
-                    <li class="vertical-carousel-left-thumbnails-form-links">
-					<span class="text-wrapper">
-						<span class="profile-thumbnail">
-							<img title="Click to view Duncan Kauffman's profile" alt=""
-                                 src="client/src/assets/img/avatars/male/9.png">
-						</span>
-						<p class="item-name"><a href="#"
-                                                target="_blank">Duncan Kauffman</a></p>
-						<p class="item-title">Mortgage Consultant &nbsp;&nbsp;&nbsp; Singapore</p>
-						<p class="item-comment">230am conference call #lifestyle</p>
-
-                        <p class="item-image">
-							<a class="link_upload-image"
-                               href="client/src/assets/img/attachment/339124.jpg"
-                               title="IMG_2847.png" target="_blank"><img
-                                    class="posted_image"
-                                    width="70"
-                                    src="client/src/assets/img/attachment/339124.jpg"></a>
-						</p>
-						<p class="item-post-time">1 day ago</p>
-
-						<ul class="social-data">
-							<li class="social-likes"><span><i class="fa fa-heart"></i> 5</span></li>
-							<li class="social-comments"><span><i class="fa fa-comment"></i> 4</span></li>
-						</ul>
-					</span>
-                    </li><!-- end ngRepeat: mbPost in data.feeds -->
-                    <li class="vertical-carousel-left-thumbnails-form-links">
-					<span class="text-wrapper">
-						<span class="profile-thumbnail">
-							<img title="Click to view Rick Bajaj's profile" alt=""
-                                 src="client/src/assets/img/avatars/male/14.png">
-						</span>
-						<p class="item-name"><a href="#"
-                                                title="Click to view this post"
-                                                target="_blank">Rick Bajaj</a></p>
-						<p class="item-title">Private Banker &nbsp;&nbsp;&nbsp; Dublin</p>
-						<p class="item-comment">#TravelPromos - Southwest Airlines has extended their double Rapid Rewards points exclusively for Citibank travelers for all flights booked and flown through 31-October 2016 given their re-signed preferred airline partner status with the Firm. In order to be eligible to receive...</p>
-
-						<p class="item-post-time">2 days ago</p>
-
-						<ul class="social-data">
-							<li class="social-likes"><span><i class="fa fa-heart"></i> 3</span></li>
-							<li class="social-comments"><span><i class="fa fa-comment"></i> 0</span></li>
-						</ul>
-					</span>
-                    </li><!-- end ngRepeat: mbPost in data.feeds -->
-                    <li class="vertical-carousel-left-thumbnails-form-links">
-					<span class="text-wrapper">
-						<span class="profile-thumbnail">
-							<img title="Click to view Wasim Lala's profile" alt=""
-                                 src="client/src/assets/img/avatars/male/5.png">
-						</span>
-						<p class="item-name"><a href="#"
-                                                target="_blank">Wasim Lala</a></p>
-						<p class="item-title">Project Manager &nbsp;&nbsp;&nbsp; Washington DC</p>
-						<p class="item-comment">I love the DC office. Just had a great townhall and then a lifestyle hackathon, and now into a GLAM session at 3.30. Friday office connections for the win.</p>
-
-						<p class="item-post-time">2 days ago</p>
-
-						<ul class="social-data">
-							<li class="social-likes"><span><i class="fa fa-heart"></i> 11</span></li>
-							<li class="social-comments"><span><i class="fa fa-comment"></i> 0</span></li>
-						</ul>
-					</span>
-                    </li>
-                    <li class="vertical-carousel-left-thumbnails-form-links">
-					<span class="text-wrapper">
-						<span class="profile-thumbnail">
-							<img title="Click to view John Menzies's profile" alt=""
-                                 src="client/src/assets/img/avatars/male/19.png">
-						</span>
-						<p class="item-name"><a href="#"
-                                                target="_blank">John Menzies</a></p>
-						<p class="item-title">Associate &nbsp;&nbsp;&nbsp; Toronto</p>
-						<p class="item-comment">Interested in machine learning but have no idea where to start?  Here's a pretty nifty introduction.</p>
-						<p class="item-post-time">2 days ago</p>
-
-						<ul class="social-data">
-							<li class="social-likes"><span><i class="fa fa-heart"></i> 3</span></li>
-							<li class="social-comments"><span><i class="fa fa-comment"></i> 2</span></li>
-						</ul>
-					</span>
-                    </li>
-                </ul>
-
-
-            </div>
-            <div class="vertical-carousel-left-thumbnails-form-badge module-status-bar"
-                 style=";">
-                <p>Last updated at: {{todayDate}}</p>
-            </div>
-        </div>
-    </div>
+					</li>
+				</ul>
+			</div>
+			<div class="vertical-carousel-left-thumbnails-form-badge module-status-bar"
+				 style=";">
+				<p>Last updated at: {{todayDate}}</p>
+			</div>
+		</div>
+	</div>
 </div>

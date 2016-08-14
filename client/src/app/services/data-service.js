@@ -4,12 +4,10 @@
     "socialBpmDataService",
     function ($q, $http) {
       function getSocialBpmData() {
-        var dataUrl = AWS_SERVER_URL + 'social-bpm/data/finalbpm.json?callback=JSON_CALLBACK';
+        var dataUrl = '/social-bpm/data/data.json';
 
         var params = [];
-
-        console.log(dataUrl);
-        return $http.jsonp(dataUrl, {params: params});
+        return $http.get(dataUrl, {params: params});
       }
 
       var apiObj = {
