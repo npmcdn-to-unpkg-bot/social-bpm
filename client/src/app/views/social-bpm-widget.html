@@ -21,8 +21,7 @@
 					<li ng-repeat="post in posts" class="vertical-carousel-left-thumbnails-form-links">
 						<span class="text-wrapper">
 							<span class="profile-thumbnail">
-								<img title="Click to view Shelly Murphy's profile" alt=""
-									 src="client/src/assets/img/avatars/{{post.id}}.png">
+								<img title="" alt="" src="client/src/assets/img/avatars/{{post.id}}.png">
 							</span>
 							<p class="item-name"><a href="#">{{post.username}}</a></p>
 							<p class="item-title">{{post.position}} &nbsp;&nbsp;&nbsp; @{{post.socialTag}}</p>
@@ -39,13 +38,10 @@
 								<li ng-repeat="answer in post.answers" class="vertical-carousel-left-thumbnails-form-links">
 									<span class="text-wrapper">
 									<span class="profile-thumbnail">
-										<img title="Click to view Shelly Murphy's profile" alt=""
-											 src="client/src/assets/img/avatars/{{answer.id}}.png">
+										<img title="" alt="" src="client/src/assets/img/avatars/{{answer.id}}.png">
 									</span>
-									<p class="item-name"><a href="#"
-															target="_blank">{{answer.username}}</a></p>
+									<p class="item-name"><a href="#">{{answer.username}}</a></p>
 									<p class="item-title">{{post.position}} &nbsp;&nbsp;&nbsp; @{{answer.socialTag}}</p>
-										<!-- p class="item-title">{{post.tags}}</p --->
 									<p class="item-comment">{{answer.title}}</p>
 									<p class="item-post-time">{{answer.Published}}</p>
 								</span>
