@@ -4,6 +4,8 @@ $(document).ready(function () {
 
   console.log(d);
 
+  $( "#social-bpm-app" ).draggable();
+
   $('body').on('click', '.vertical-carousel-left-thumbnails-form-links', function () {
     $(this).children(".answers").slideToggle("slow");
   });
