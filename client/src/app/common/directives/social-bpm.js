@@ -16,7 +16,6 @@ socialBpmModule.directive(
         socialBpmDataService
           .getSocialBpmData()
           .success(function (response) {
-            // console.log(response);
             $scope.posts = response;
           })
           .error(function () {
@@ -25,6 +24,98 @@ socialBpmModule.directive(
             }
           });
         // Calling social bpm data via ajax ends here
+
+        $scope.sortByMostRecent = function () {
+          socialBpmDataService
+            .getSocialBpmData()
+            .success(function (response) {
+              $scope.posts = response.sort(mostRecentSort);
+              return false;
+            })
+            .error(function () {
+              if (!window.console) {
+                console.log("Could not load social bpm data.");
+              }
+            });
+        };
+
+        function mostRecentSort(a, b) {
+          return new Date(b.Published).getTime() - new Date(a.Published).getTime();
+        };
+
+        $scope.sortByOldestFirst = function () {
+          socialBpmDataService
+            .getSocialBpmData()
+            .success(function (response) {
+              $scope.posts = response.sort(oldestFirstSort);
+              return false;
+            })
+            .error(function () {
+              if (!window.console) {
+                console.log("Could not load social bpm data.");
+              }
+            });
+        };
+
+        function oldestFirstSort(a, b) {
+          return new Date(a.Published).getTime() - new Date(b.Published).getTime();
+        };
+
+        $scope.filterByCiti = function () {
+          socialBpmDataService
+            .getSocialBpmData()
+            .success(function (response) {
+              $scope.posts = response.filter(socialTagFilter("Citi"));
+              return false;
+            })
+            .error(function () {
+              if (!window.console) {
+                console.log("Could not load social bpm data.");
+              }
+            });
+        };
+
+        $scope.filterByNyu = function () {
+          socialBpmDataService
+            .getSocialBpmData()
+            .success(function (response) {
+              $scope.posts = response.filter(socialTagFilter("NYU"));
+              return false;
+            })
+            .error(function () {
+              if (!window.console) {
+                console.log("Could not load social bpm data.");
+              }
+            });
+        };
+
+        function socialTagFilter(socialTag) {
+          return function(post) {
+            return post.socialTag === socialTag;
+          }
+        };
+
+
       }
     }
   });
+
+socialBpmModule.directive("sortMenu", function() {
+  return {
+    restrict: "A",
+    link: function(scope, element, attrs) {
+      console.log("Menu");
+      element.menu();
+    },
+    controller: function ($scope, $element, $attrs, socialBpmDataService) {
+      $scope.canShowMenu = false;
+      $scope.toggleMenu = function() {
+        if(!$scope.canShowMenu) {
+          $scope.canShowMenu = true;
+        } else {
+          $scope.canShowMenu = false;
+        }
+      }
+    }
+  }
+});
