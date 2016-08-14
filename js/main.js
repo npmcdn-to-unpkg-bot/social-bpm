@@ -1,9 +1,5 @@
 $(document).ready(function () {
 
-  var d = new Date("January 31,2016,10:36:55 EDT");
-
-  console.log(d);
-
   $( "#social-bpm-app" ).draggable();
 
   $('body').on('click', '.vertical-carousel-left-thumbnails-form-links', function () {
@@ -23,7 +19,7 @@ $(document).ready(function () {
   (function loop() {
     var rand = Math.round(Math.random() * (10000 - 500)) + 7000;
     setTimeout(function () {
-      // notifyMe();
+      notifyMe();
       loop();
     }, rand);
   }());
