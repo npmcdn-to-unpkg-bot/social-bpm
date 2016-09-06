@@ -19,7 +19,7 @@ $(document).ready(function () {
   (function loop() {
     var rand = Math.round(Math.random() * (10000 - 500)) + 7000;
     setTimeout(function () {
-      notifyMe();
+      // notifyMe();
       loop();
     }, rand);
   }());
